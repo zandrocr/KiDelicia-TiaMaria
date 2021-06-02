@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(imagens/capa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.logo{
+    display: block;
+    width: 100%;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    list-style: none;
+    align-items: center;
+}
+
+.ki{
+    width: 47vh;
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+    box-shadow: 10px 5px rgb(0, 0, 0);
+    font-size: 5em;
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+.bu{
+    width: 21vh;
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+    box-shadow: 10px 5px rgb(0, 0, 0);
+    font-size: 5vh;
+    margin-left: 5vh;
+    font-family: sans-serif;
+    font-style: bold;
+    margin-top: 2vh;
+}
+
+.tia{
+    width: 34vh;
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+    box-shadow: 10px 5px rgb(0, 0, 0);
+    font-size: 8vh;
+    margin-left: 8vh;
+    margin-top: 2vh;
+    font-family: sans-serif;
+    font-style: bold;
+}

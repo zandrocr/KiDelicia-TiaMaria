@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Arial Rounded MT";
+    background-color: black;
+    height: 8vh;
+    display: flex;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    letter-spacing: 2vh;
+    margin-left: 5vh ;
+    font-size: 2vh;
+    justify-content: space-around;
+}
+
+.menu li :hover{
+    opacity: 30%;
+}
+
+#check{
+    position: absolute;
+    display: none;
+}
+
+.menu-mob div{
+    display: none;
+    width: 50px;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    margin: 8px;
+    border-radius: 9px;
+    transition: 0.20s ease-in-out;
+}
+
+.menu-mob .line2{
+    background-color: rgb(255, 100, 38);
+}
+
+.menu-mob{
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.7 s;
+}
+
+@media (max-width: 700px) {
+    .menu-mob div{
+        display: block;
+        transition: 0.10 s;
+    }
+    .menu{
+        display: none;
+        transition: 0.10 s;
+    }
+}
+
+input:checked ~ .menu-mob .line1{
+    transition: 0.1s ;
+    opacity: 0;
+
+}
+
+input:checked ~ .menu-mob .line2{
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 20%;
+    transition: 0.3s ;
+    background-color: rgb(255, 100, 38);
+}
+
+input:checked ~ .menu-mob .line3{
+    transition: 0.1s ;
+    opacity: 0;
+}
+
+@media (min-width: 700px)  {
+    .menu-mob{
+        opacity: 0%;
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu{
+        position: fixed;
+        top: 45px;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        text-align: center;
+        transition: 0.3s;
+        display: block;
+        left: -100%;
+        transition: 0.6s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 20px;
+        line-height: 15vh;
+    }
+
+    nav ul li a{
+        font-size: 3vh;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
