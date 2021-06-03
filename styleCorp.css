@@ -2,54 +2,51 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-body{
+.logo{
+    margin-top: 8vh;
+    height: 90vh;
     background-image: url(imagens/capa.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
 }
 
-.logo{
-    display: block;
-    width: 100%;
-    margin-left: 5vh;
-    margin-top: 2vh;
+.logo ul {
+    font-family: "Arial Rounded MT";
+    font-size: 10vh;
     list-style: none;
-    align-items: center;
+    display: block;
+    float: top;
+    margin-left: 5%;
 }
 
 .ki{
-    width: 47vh;
-    background-color: rgb(255, 251, 0);
-    border-radius: 10px;
-    box-shadow: 10px 5px rgb(0, 0, 0);
-    font-size: 5em;
-    font-family: sans-serif;
-    font-style: bold;
+    width: 44vh;
+    border-radius: 12px;
+    background-color: yellow;
+    box-shadow: 10px 6px 10px rgb(0 0 0);
 }
 
 .bu{
-    width: 21vh;
-    background-color: rgb(255, 251, 0);
-    border-radius: 10px;
-    box-shadow: 10px 5px rgb(0, 0, 0);
-    font-size: 5vh;
-    margin-left: 5vh;
-    font-family: sans-serif;
-    font-style: bold;
-    margin-top: 2vh;
+    box-shadow: 10px 6px 10px rgb(0 0 0);
+    margin-top: 1vh;
+    font-size: 3vh;
+    letter-spacing: 3vh;
+    width: 28vh;
+    margin-left: 3vh;
+    border-radius: 8px;
+    background-color: yellow;
 }
 
-.tia{
-    width: 34vh;
-    background-color: rgb(255, 251, 0);
-    border-radius: 10px;
-    box-shadow: 10px 5px rgb(0, 0, 0);
+.ti{
+    box-shadow: 10px 6px 10px rgb(0 0 0);
+    margin-top: 1vh;
     font-size: 8vh;
-    margin-left: 8vh;
-    margin-top: 2vh;
-    font-family: sans-serif;
-    font-style: bold;
+    width: 36vh;
+    margin-left: 7vh;
+    border-radius: 15px;
+    background-color: yellow;
 }
