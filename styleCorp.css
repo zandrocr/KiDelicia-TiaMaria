@@ -5,52 +5,103 @@
     border: 0;
 }
 
-.fundo{
-    background-image: url(imagens/capa.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    margin-top: 8vh;
-    height: 90vh;
+        .fundo{
+            background-image: url(imagens/capa.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            margin-top: 8vh;
+            height: 90vh;
+        }
+
+        .logo ul {
+            margin-top: 3vh;
+            font-family: "Arial Rounded MT";
+            font-size: 10vh;
+            list-style: none;
+            display: block;
+            margin-left: 5%;
+        }
+
+        .ki{
+            width: 44vh;
+            border-radius: 12px;
+            background-color: yellow;
+            box-shadow: 10px 6px 10px rgb(122, 122, 0);
+        }
+
+        .bu{
+            margin-top: 1vh;
+            font-size: 3vh;
+            letter-spacing: 3vh;
+            width: 28vh;
+            margin-left: 3vh;
+            border-radius: 8px;
+            background-color: yellow;
+            box-shadow: 10px 6px 10px rgb(122, 122, 0);
+        }
+
+        .ti{
+            margin-top: 1vh;
+            font-size: 8vh;
+            width: 36vh;
+            margin-left: 7vh;
+            border-radius: 15px;
+            background-color: yellow;
+            box-shadow: 10px 6px 10px rgb(122, 122, 0);
+        }
+
+h4{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    font-size: 6vh;
+    letter-spacing: 7vh;
+    font-style: italic;
 }
 
-.logo ul {
-    margin-top: 3vh;
-    font-family: "Arial Rounded MT";
-    font-size: 10vh;
-    list-style: none;
-    display: block;
-    margin-left: 5%;
-}
-
-.ki{
-    width: 44vh;
-    border-radius: 12px;
-    background-color: yellow;
-    box-shadow: 10px 6px 10px rgb(122, 122, 0);
-}
-
-.bu{
-    margin-top: 1vh;
-    font-size: 3vh;
-    letter-spacing: 3vh;
-    width: 28vh;
-    margin-left: 3vh;
-    border-radius: 8px;
-    background-color: yellow;
-    box-shadow: 10px 6px 10px rgb(122, 122, 0);
-}
-
-.ti{
-    margin-top: 1vh;
-    font-size: 8vh;
-    width: 36vh;
-    margin-left: 7vh;
-    border-radius: 15px;
-    background-color: yellow;
-    box-shadow: 10px 6px 10px rgb(122, 122, 0);
-}
-
-.sobre{
+.text1{
+    margin: 10vh;
     display: flex;
+    align-items: center;
+    font-size: 4vh;
+}
+
+#mesa{
+    width: 70vh;
+    height: 40vh;
+    size: unset;
+}
+
+#salgados{
+    width: 70vh;
+    height: 40vh;
+}
+
+@media (max-width: 560px){
+    .text1{
+        display: block;
+    }
+
+}
+
+.list{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.list ul li{
+    list-style: none;
+}
+
+.s{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coxinha{
+    width: 60vh;
+    height: 70vh;
 }
