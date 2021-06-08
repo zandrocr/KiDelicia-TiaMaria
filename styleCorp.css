@@ -57,7 +57,7 @@ h4{
     margin-top: 10vh;
     margin-bottom: 5vh;
     font-size: 3em;
-    letter-spacing: 7vh;
+    letter-spacing: 2vh;
     font-style: italic;
 }
 
@@ -74,19 +74,27 @@ h4{
 }
 
 #mesa{
+    justify-content: space-around;
     width: 70vh;
     height: 40vh;
     size: unset;
 }
 
 #salgados{
+    justify-content: space-around;
     width: 70vh;
     height: 40vh;
 }
 
-@media (max-width: 560px){
+@media (max-width: 850px){
     .text1{
         display: block;
+        align-items: center;
+        text-align: center;
+    }
+    main h4{
+        text-align: center;
+        font-size: 2em;
     }
 }
 
@@ -114,8 +122,89 @@ h4{
     height: 70vh;
 }
 
-@media (max-width: 560px){
+@media (max-width: 850px){
     .list{
         display: block;
+    }
+
+}
+
+
+.fim{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 5vh;
+    font-size: 4vh;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+    height: 35vh;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer h4{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+footer div{
+    color:white;
+    font-size: 2em;
+}
+
+footer p{
+    line-height: 9vh;
+    font-size: 2rem;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.numero{
+    letter-spacing: 12px;
+}
+
+@media (max-width: 850px) {
+    .rodape{
+        display: block;
+    }
+    footer{
+        height: 70vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 460px) {
+    #salgados,
+    #mesa,
+    #coxinha{
+        width: 35vh;
+        height: 20vh;
+    }
+}
+
+@media (max-width: 400px) {
+    body h4{
+        font-size: 1.5em;
+        margin-top: 5vh;
+    }
+    div h4{
+        font-size: 1.5em;
+    }
+    footer h4{
+        font-size: 1.5em;
+    }
+    footer p{
+        font-size: 1rem;
     }
 }
