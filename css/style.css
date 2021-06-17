@@ -6,7 +6,8 @@
 }
 
         .fundo{
-            background-image: url(imagens/capa.png);
+            background-image: url("imagens/capa.png");
+            background-color: yellow;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top center;
