@@ -21,19 +21,19 @@ nav{
 }
 
 
-.menu{
+#menu{
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.menu li{
+#menu li{
     letter-spacing: 2vh;
     margin-left: 5vh ;
     font-size: 2vh;
 }
 
-.menu li :hover{
+#menu li :hover{
     opacity: 30%;
 }
 
@@ -73,7 +73,7 @@ a{
         display: block;
         transition: 0.10 s;
     }
-    .menu{
+    #menu{
         display: none;
         transition: 0.10 s;
     }
@@ -107,7 +107,7 @@ input:checked ~ .menu-mob .line3{
 }
 
 @media (max-width: 850px) {
-    .menu{
+    #menu{
         position: fixed;
         top: 8vh;
         width: 100%;
