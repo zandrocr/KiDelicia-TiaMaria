@@ -179,7 +179,8 @@ footer img{
     }
     footer{
         height: 60vh;
-        text-align: center;
+        text-align: center;  
+        justify-content: center;
     }
 }
 

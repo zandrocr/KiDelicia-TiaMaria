@@ -37,12 +37,12 @@ nav{
     opacity: 30%;
 }
 
-#check{
+#toggle{
     position: absolute;
     display: none;
 }
 
-.menu-mob div{
+#hamburger div{
     display: none;
     width: 50px;
     height: 5px;
@@ -52,11 +52,11 @@ nav{
     transition: 0.20s ease-in-out;
 }
 
-.menu-mob .line2{
+#hamburger .line2{
     background-color: rgb(255, 100, 38);
 }
 
-.menu-mob{
+#hamburger{
     cursor: pointer;
     position: relative;
     display: block;
@@ -69,7 +69,7 @@ a{
 }
 
 @media (max-width: 850px) {
-    .menu-mob div{
+    #hamburger div{
         display: block;
         transition: 0.10 s;
     }
@@ -79,29 +79,28 @@ a{
     }
 }
 
-input:checked ~ .menu-mob .line1{
+input:checked ~ #hamburger .line1{
     transition: 0.1s ;
     opacity: 0;
-
 }
 
-input:checked ~ .menu-mob .line2{
+input:checked ~ #hamburger .line2{
     border-radius: 50%;
     display: inline-block;
     height: 40px;
     width: 40px;
     margin-left: 20%;
-    transition: 0.3s ;
+    transition: .30s ;
     background-color: rgb(255, 100, 38);
 }
 
-input:checked ~ .menu-mob .line3{
-    transition: 0.1s ;
+input:checked ~ #hamburger .line3{
+    transition: .1s ;
     opacity: 0;
 }
-
+    
 @media (min-width: 850px)  {
-    .menu-mob{
+    #hamburger{
         display: none;
     }
 }
@@ -128,7 +127,7 @@ input:checked ~ .menu-mob .line3{
     nav ul li a{
         font-size: 3vh;
     }
-    #check:checked ~ ul {
+    #toggle:checked ~ ul {
         left: 0;
     }
 }
