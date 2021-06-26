@@ -20,7 +20,6 @@ nav{
     display: flex;
 }
 
-
 #menu{
     list-style: none;
     display: flex;
@@ -120,7 +119,7 @@ input:checked ~ #hamburger .line3{
 
     nav ul li{
         display: block;
-        margin: 20px;
+        margin-top: 5vh;
         line-height: 15vh;
     }
 
@@ -130,4 +129,8 @@ input:checked ~ #hamburger .line3{
     #toggle:checked ~ ul {
         left: 0;
     }
+}
+
+main{
+    align-items: center;
 }

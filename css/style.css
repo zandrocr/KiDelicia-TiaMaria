@@ -79,12 +79,15 @@ h4{
     width: 70vh;
     height: 40vh;
     size: unset;
+    border-radius: 30px;
 }
 
 #salgados{
     justify-content: space-around;
     width: 70vh;
     height: 40vh;
+    size: unset;
+    border-radius: 30px;
 }
 
 @media (max-width: 850px){
