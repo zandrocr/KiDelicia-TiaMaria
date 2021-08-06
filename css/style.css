@@ -1,119 +1,170 @@
+/*estilo referente ao corpo da pagina*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#black{
+    opacity: 0.5;
 }
 
-        .fundo{
-            background-image: url("../imagens/capa.png");
-            background-color: yellow;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: top center;
-            margin-top: 8vh;
-            height: 90vh;
-        }
-
-        .logo ul {
-            margin-top: 3vh;
-            font-family: "Arial Rounded MT";
-            font-size: 10vh;
-            list-style: none;
-            display: block;
-            margin-left: 5%;
-        }
-
-        .ki{
-            width: 44vh;
-            border-radius: 12px;
-            background-color: yellow;
-            box-shadow: 10px 6px 10px rgb(122, 122, 0);
-        }
-
-        .bu{
-            margin-top: 1vh;
-            font-size: 3vh;
-            letter-spacing: 3vh;
-            width: 28vh;
-            margin-left: 3vh;
-            border-radius: 8px;
-            background-color: yellow;
-            box-shadow: 10px 6px 10px rgb(122, 122, 0);
-        }
-
-        .ti{
-            margin-top: 1vh;
-            font-size: 8vh;
-            width: 36vh;
-            margin-left: 7vh;
-            border-radius: 15px;
-            background-color: yellow;
-            box-shadow: 10px 6px 10px rgb(122, 122, 0);
-        }
-
-h4{
-    margin-left: 10vh;
-    margin-right: 10vh;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    font-size: 3em;
-    letter-spacing: 2vh;
-    font-style: italic;
+/*capa da pagina, imagem inicial e logo do site*/
+#logo{
+    background-image: url(/imagens/capa.png);
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
 }
 
-.sobre{
-    justify-content: space-around;
-    margin-left: 10vh;
-    margin-right: 10vh;
+#fundo{
+    margin: 10vh;    
+    margin-top: 0;
+    transition: .6s;
 }
 
-.text1{
-    display: flex;
-    align-items: center;
-    font-size: 4vh;
-}
-
-#mesa{
-    justify-content: space-around;
-    width: 70vh;
-    height: 40vh;
-    size: unset;
-    border-radius: 30px;
-}
-
-#salgados{
-    justify-content: space-around;
-    width: 70vh;
-    height: 40vh;
-    size: unset;
-    border-radius: 30px;
-}
-
-@media (max-width: 850px){
-    .text1{
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    main h4{
-        text-align: center;
-        font-size: 2em;
-    }
-}
-
-.list{
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    font-size: 4vh;
-    text-align: center;
-    margin-left: 10vh;
-    margin-right: 10vh;
-}
-
-.list ul li{
+#fundo li{
     list-style: none;
+}
+
+ul{
+    display: grid;
+    grid-template-rows:90px 35px;
+}
+
+/* Logo do site */
+#ki{
+    background-color: yellow;
+    font-size: 600%;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: black;
+    box-shadow: 15px 15px 10px black;
+    transition: .3s;
+}
+    
+#bu{
+    background-color: yellow;
+    font-size: 200%;
+    width: 125px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 15px 15px 10px black;
+    transition: .3s;
+}
+
+#ti{
+    background-color: yellow;
+    font-size: 300%;
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 90px;
+    box-shadow: 20px 15px 10px black;
+    transition: .3s;
+}
+/* fim do Logo do site */
+/* final da capa da pagina, imagem inicial e logo do site */
+
+/*Parte referente a primeira parte do corpo da pagina*/
+main{
+    margin: 10vh;
+    justify-content: center;
+}
+
+/*botão perssonalizado para outra pagina*/
+
+.bot{
+    align-items: center;
+}
+
+.bot img{
+    width: 50px;
+    height: 30px;
+}
+
+#button-page{ 
+    font-size: 6vh;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 2vh;
+    background: none;
+}
+   #button-page:hover{
+        transition: .4s;
+        color: yellow;
+        opacity: 90%;
+        background-color: black;
+        border-radius: 10px 10px;
+    }
+
+.bot img:hover{
+    width: 60px;
+    height: 40px;
+}
+
+#button-page1{ 
+        font-size: 6vh;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .3s;
+        margin-bottom: 2vh;
+        background: none;
+    }
+       #button-page1:hover{
+            transition: .4s;
+            color: yellow;
+            opacity: 90%;
+            background-color: black;
+            border-radius: 10px 10px;
+        }
+ 
+.text1{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 5vh;
+}
+    .text1 p{
+        margin-right: 50px;
+    }
+
+    .text2{
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+        .text2 p{
+            margin-left: 50px; 
+        }
+
+img{
+    transition: .5s;
+    width: 70vh;
+    height: 35vh;
+    border-radius: 100px 50px;
+}
+
+/*fim da parte referente ao corpo da pagina*/
+
+/*Cardapio da pagina*/
+#menuLis{
+    margin-top: 10vh;
+}
+
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list ul{
+    list-style: none;
+    text-align: center;
+    word-break: break-word;
 }
 
 .s{
@@ -122,97 +173,52 @@ h4{
 }
 
 #coxinha{
-    width: 80vh;
     height: 70vh;
 }
 
-@media (max-width: 850px){
-    .list{
-        display: block;
-    }
-
-}
-
-.fim{
-    margin-left: 10vh;
-    margin-right: 10vh;
+#text0{
     margin-top: 5vh;
-    font-size: 4vh;
-    justify-content: space-around;
+    text-align: center;
 }
+
 
 footer{
     background-color: black;
-    height: 35vh;
 }
 
-.rodape{
+#button-page2{ 
+        font-size: 6vh;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        transition: .5s;
+        color: white;
+        margin: 5vh;
+    }
+        #button-page2 :hover{
+            transition: .6s;
+            color: yellow;
+            opacity: 90%;
+            background-color: black;
+            border-radius: 10px 10px;
+        }
+
+#foot{
+    color: white;
     display: flex;
-    align-items: center;
+    font-size: 180%;
+    text-align: center;
     justify-content: space-around;
 }
-footer h4{
+
+#foot a{
+    text-decoration: none;
+    font-style: none;
     color: white;
-    text-align: center;
-    font-size: 3em;
 }
 
-footer div{
-    color:white;
-}
-
-footer p{
-    line-height: 9vh;
-    font-size: 2em;
-}
-
-footer img{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
-.numero{
-    letter-spacing: 12px;
-}
-
-@media (max-width: 850px) {
-    .rodape{
-        display: block;
-    }
-    footer{
-        height: 60vh;
-        text-align: center;  
-        justify-content: center;
-    }
-}
-
-@media (max-width: 460px) {
-    #salgados,
-    #mesa,
-    #coxinha{
-        width: 35vh;
-        height: 20vh;
-    }
-}
-
-@media (max-width: 850px) {
-    .fim{
-        text-align: center;
-    }
-
-    body h4{
-        font-size: 1em;
-        margin-top: 5vh;
-    }
-    div h4{
-        font-size: 1em;
-    }
-    footer h4{
-        font-size: 1em;
-    }
-    footer p{
-        font-size: 1rem;
-    }
-
+#social img{
+    width: 10vh;
+    height: 10vh;
+    margin-bottom: 10vh;
 }

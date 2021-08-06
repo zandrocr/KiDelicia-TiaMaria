@@ -12,38 +12,46 @@
         </head>
     <body>
 
-        <header id="menu-toggle">
-            <nav>
-                <input type="checkbox" id="toggle">
+        <header>
+            <nav id="menu-toggle">
+
+                <input type="checkbox" id="toggle">       
                 <label for="toggle" id="hamburger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+                    <div class="burg"></div>
+                    <div id="dif" class="burg"></div>
+                    <div class="burg"></div>
                 </label>
 
                 <ul id="menu">
                     <li> <a href="/" class="menu1">Inicio</a> </li>
-                    <li> <a href="#Sobre" class="menu2">Sobre</a> </li>
-                    <li> <a href="#Cardapio" class="menu3">Cardápio</a> </li>
-                    <li> <a href="#contatos" class="menu4">Contatos</a> </li>
-                </ul> 
+                    <li> <a href="#button-page" class="menu2">Sobre</a> </li>
+                    <li> <a href="#button-page1" class="menu3">Cardápio</a> </li>
+                    <li> <a href="#button-page2" class="menu4">Contatos</a> </li>
+                </ul>                   
             </nav>
         </header>
 
-        <div class="logo">
-            <div class="fundo">
-            <br>
-                <ul>
-                    <li class="ki">KiDelicia</li>
-                    <li class="bu">BUFFET</li>
-                    <li class="ti">Tia Maria</li>
+        <div id="logo"><br>
+            <div id="fundo">  
+                    <ul>
+                    <li id="ki">KiDelicia</li>
+                    <li id="bu">BUFFET</li>
+                    <li id="ti">Tia Maria</li>
                 </ul>
             </div>
         </div>
 
         <main>
-            <h4 id="Sobre">SOBRE</h4>
-            <div class="sobre">
+            <div class="bot">
+                <a href="index2.html">
+                    <button id="button-page">SOBRE</button>
+                </a>
+
+                <img src="imagens/clique-nos-icones-com-cursores-de-mao_113072-1.png" alt="">
+            </div>
+
+            <div id="p1">
+
                 <div class="text1">
                     <p>
                         Os melhores salgados da região de São José dos Campos, tudo feito com o maior amor e dedicação que só uma mineira raiz sabe fazer, você pode já ter comido quase tudo que o nosso Brasil tem a oferecer mais nas mãos desse Tia, você irá sentir outros sabores.
@@ -52,12 +60,10 @@
                     <img id="salgados" src="imagens/salgados.jpg" alt="slagados">
 
                 </div>
-                <br>
-                <a class="botao" href="index2.html"><button type="submit">Veja Mais</button></a>
+            
+            </div>
 
-                <br>
-
-                <div class="text1">
+                <div class="text2">
                     <img id="mesa", src="imagens/mesa.jpg" alt="mesa">
                     <p>
                         Comidas e salgados para festas e eventos de todas as ocasiões, dês de um aniversário da sua pequena criança ou seu amor até um jantar para os funcionários da sua empresa ou quem sabe um belo café da manhã. Formal ou descontraído, estaremos sempre enchendo seus pratos.
@@ -66,13 +72,17 @@
 
             </div>
 
-            <div id="Cardapio">
-                <h4 id="car">CARDÁPIO</h4>
+            <div id="menuLis">
 
-                <div class="list">
+                <div class="bot"> 
+                    <button id="button-page1" type="submit">CARDÁPIO</button>
+                </div>
+    
+
+                <div id="list">
 
                     <ul >
-                        <li class="s">Salgados:</li>
+                        <li class="s">Salgados</li>
                         <li>Coxinha de frango</li>
                         <li>Bolinha de queijo</li>
                         <li>Quibe</li>
@@ -86,7 +96,7 @@
                     <img id="coxinha" src="imagens/coxinha.png" alt="coxinha">
 
                     <ul>
-                        <li class="s">Massas:</dt>
+                        <li class="s">Massas</dt>
                         <li>Pastel de frango em massa folhada</li>
                         <li>Sanduíches em geral</li>
                         <li>Canudinho com atum</li>
@@ -100,25 +110,27 @@
                 </div>
             </div>
 
-                <p class="fim">
+                <p id="text0">
                     Vamos logo começar os preparativos para seus maiores e melhores eventos, tudo preparados pelas nossas mãos, ligue para nós mande um e-mail, nós conte seus desejos de um dia inesquecível e deixe que cuidamos da cozinha para você.
                 </p>
         </main>
 
-        <footer>
-            <h4 id="contatos">CONTATOS</h4>
-            <div class="rodape">
+        <footer id="end">
+            <h4 id="button-page2">CONTATOS</h4>
+
+            <div id="foot">
                 <div>
                     <a href="https://goo.gl/maps/m6fi4dYRT3F2Jwot7">
                         <p>Jardim Limoeiro</p>
+                        <p>São José dos Campos - SP</p>
                     </a>
-                    <p>São José dos Campos - SP</p>
+                    
                 </div>
                 <div>
-                    <p class="numero">(12)998811-2255</p>
-                    <p>tiaMariaSalgados@gmail.com</p>
+                    <p id="numero">(12)998811-2255</p>
+                    <a href="mailto:tiaMariaSalgados@gmail.com?Subject=Título%20da%20mensagem">tiaMariaSalgados@gmail.com</a> 
                 </div>
-                <div>
+                <div id="social">
                     <a href="https://web.whatsapp.com/" target="_blank">
                         <img src="sociais/wats.png" alt="wats">
                     </a>
