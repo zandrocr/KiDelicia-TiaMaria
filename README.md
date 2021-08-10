@@ -1,5 +1,7 @@
 # Site Tia Maria
 
+![GitHub](https://img.shields.io/github/license/zandrocr/SiteTiaMaria)
+
 http://kideliciatiamaria.epizy.com/ (confira o site)
 
 ## Sobre
@@ -9,3 +11,7 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 
 <p>A imagem reflete a idéia inicial, de como seria o estado final do projeto, com a ilustração criada em Photoshop, para após ser codificada</p>
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/tiaMaria.png">
+
+<img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(1).png">
+<img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(2).png">
+<img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(6).png">
