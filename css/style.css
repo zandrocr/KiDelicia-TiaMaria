@@ -181,9 +181,19 @@ img{
     text-align: center;
 }
 
+#end{
+    align-items: center;
+    justify-content: space-around;
+}
 
 footer{
     background-color: black;
+}
+
+#maps img{
+    border-radius: 0;
+    width: 10vh;
+    height: 10vh;
 }
 
 #button-page2{ 
@@ -208,7 +218,12 @@ footer{
     display: flex;
     font-size: 180%;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#foot div{
+    margin: 5vh;
+    margin-bottom: 0;
 }
 
 #foot a{
