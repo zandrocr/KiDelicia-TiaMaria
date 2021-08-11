@@ -10,8 +10,36 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 <p>O site tem como ponto, um estilo mais limpo e simplista, criado para o intuito de demonstrar a qualidade dos produtos e incentivar a utilização do serviço pelas pessoas que o procuram.<p>
 
 <p>A imagem reflete a idéia inicial, de como seria o estado final do projeto, com a ilustração criada em Photoshop, para após ser codificada</p>
+
+#
+
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/tiaMaria.png">
 
+#
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(1).png">
+
+# <br>
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(2).png">
+
+# <br>
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(6).png">
+
+<p> Com a versão mobile para maior parte dos dispositivos </p>
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/1.jpg">
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/2.jpg">
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/3.jpg">
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/4.jpg">
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p1.jpg">
+
+#
+<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p2.jpg">
