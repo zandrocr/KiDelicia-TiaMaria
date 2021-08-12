@@ -15,7 +15,8 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/tiaMaria.png">
 
-#
+## <p>Durante a criação com algumas alterações foi concluido o projeto do site.</p>
+
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(1).png">
 
 # <br>
@@ -24,22 +25,20 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 # <br>
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(6).png">
 
-<p> Com a versão mobile para maior parte dos dispositivos </p>
+## <p> Com a versão mobile para maior parte dos dispositivos </p>
 
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/1.jpg">
+<div>
+<img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/1.jpg">
 
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/2.jpg">
+<img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/3.jpg">
+  
+ <img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/4.jpg">
+</div>
+ 
+# 
+ 
+<div>
+<img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p1.jpg">
 
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/3.jpg">
-
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/4.jpg">
-
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p1.jpg">
-
-#
-<img scr="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p2.jpg">
+<img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p2.jpg">
+</div>
