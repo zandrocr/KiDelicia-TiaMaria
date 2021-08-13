@@ -15,7 +15,17 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/tiaMaria.png">
 
-## <p>Durante a criação com algumas alterações foi concluido o projeto do site.</p>
+## Linguagens utilizadas
+
+<div>
+    <img align="center" alt="Rafa-HTML" height="60" width="60" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg">, <p>HTML na para o corpo do site</p> 
+    <img align="center" alt="Rafa-CSS" height="60" width="60" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg">
+      <p>CSS em seu estilo e apresentação</p> 
+    <img align="center" alt="Rafa-Js" height="60" width="60" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+      <p>Javascript para alguns detalhes finais</p>
+</div>
+
+### <p>Durante a criação com algumas alterações foi concluido o projeto do site.</p>
 
 <img src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/capturas/Captura%20de%20Tela%20(1).png">
 
@@ -42,3 +52,5 @@ http://kideliciatiamaria.epizy.com/ (confira o site)
 
 <img width="300px" src="https://github.com/zandrocr/SiteTiaMaria/blob/main/imagens/mob/p2.jpg">
 </div>
+
+
