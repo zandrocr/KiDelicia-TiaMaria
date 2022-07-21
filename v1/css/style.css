@@ -1,0 +1,239 @@
+/*estilo referente ao corpo da pagina*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#black{
+    opacity: 0.5;
+}
+
+/*capa da pagina, imagem inicial e logo do site*/
+#logo{
+    background-image: url(/imagens/capa.png);
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 90vh;
+}
+
+#fundo{
+    margin: 10vh;    
+    margin-top: 0;
+    transition: .6s;
+}
+
+#fundo li{
+    list-style: none;
+}
+
+ul{
+    display: grid;
+    grid-template-rows:90px 35px;
+}
+
+/* Logo do site */
+#ki{
+    background-color: yellow;
+    font-size: 600%;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: black;
+    box-shadow: 15px 15px 10px black;
+    transition: .3s;
+}
+    
+#bu{
+    background-color: yellow;
+    font-size: 200%;
+    width: 125px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 15px 15px 10px black;
+    transition: .3s;
+}
+
+#ti{
+    background-color: yellow;
+    font-size: 300%;
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 90px;
+    box-shadow: 20px 15px 10px black;
+    transition: .3s;
+}
+/* fim do Logo do site */
+/* final da capa da pagina, imagem inicial e logo do site */
+
+/*Parte referente a primeira parte do corpo da pagina*/
+main{
+    margin: 10vh;
+    justify-content: center;
+}
+
+/*botão perssonalizado para outra pagina*/
+
+.bot{
+    align-items: center;
+}
+
+.bot img{
+    width: 50px;
+    height: 30px;
+}
+
+#button-page{ 
+    font-size: 6vh;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 2vh;
+    background: none;
+}
+   #button-page:hover{
+        transition: .4s;
+        color: yellow;
+        opacity: 90%;
+        background-color: black;
+        border-radius: 10px 10px;
+    }
+
+.bot img:hover{
+    width: 60px;
+    height: 40px;
+}
+
+#button-page1{ 
+        font-size: 6vh;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .3s;
+        margin-bottom: 2vh;
+        background: none;
+    }
+       #button-page1:hover{
+            transition: .4s;
+            color: yellow;
+            opacity: 90%;
+            background-color: black;
+            border-radius: 10px 10px;
+        }
+ 
+.text1{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 5vh;
+}
+    .text1 p{
+        margin-right: 50px;
+    }
+
+    .text2{
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+    }
+        .text2 p{
+            margin-left: 50px; 
+        }
+
+img{
+    transition: .5s;
+    width: 70vh;
+    height: 35vh;
+    border-radius: 100px 50px;
+}
+
+/*fim da parte referente ao corpo da pagina*/
+
+/*Cardapio da pagina*/
+#menuLis{
+    margin-top: 10vh;
+}
+
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#list ul{
+    list-style: none;
+    text-align: center;
+    word-break: break-word;
+}
+
+.s{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coxinha{
+    height: 70vh;
+}
+
+#text0{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+#end{
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: black;
+}
+
+#maps img{
+    border-radius: 0;
+    width: 10vh;
+    height: 10vh;
+}
+
+#button-page2{ 
+        font-size: 6vh;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        transition: .5s;
+        color: white;
+        margin: 5vh;
+    }
+        #button-page2 :hover{
+            transition: .6s;
+            color: yellow;
+            opacity: 90%;
+            background-color: black;
+            border-radius: 10px 10px;
+        }
+
+#foot{
+    color: white;
+    display: flex;
+    font-size: 180%;
+    text-align: center;
+    justify-content: center;
+}
+
+#foot div{
+    margin: 5vh;
+    margin-bottom: 0;
+}
+
+#foot a{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+}
+
+#social img{
+    width: 10vh;
+    height: 10vh;
+    margin-bottom: 10vh;
+}

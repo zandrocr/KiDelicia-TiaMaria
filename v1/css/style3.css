@@ -1,0 +1,190 @@
+@media (max-width: 1024px) {
+    footer a{
+        font-size: 1em;
+    }
+    
+
+    footer a{
+        font-size: 1em;
+    }
+
+    #social img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    #foot{
+        display: block;
+    }
+
+    #foot div{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 840px) {
+    
+    #list{
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin-top: 5vh;
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    .text1{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text1 p{
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+
+    .text2{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    .text2 p{
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .bot img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #menu{
+        display: none;
+        text-align: left;
+        height: 100vh;
+    }
+
+    #menu li{
+        height: 25vh;
+    }
+
+    #toggle:checked ~ #menu{
+        display: block;
+        text-align: center;        
+        justify-content: space-around;
+        font-size: 1em;
+    }
+
+    #toggle:checked ~ .menu1{
+        font-size: 50em;
+    }
+    
+    header{
+        position: fixed;
+    }    
+
+    #fundo{
+        margin-top: 10vh;
+    }
+
+    #hamburger{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .bot{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bot img{
+        margin-top: -3vh;
+        margin-bottom: 2vh;
+    }
+
+    .bot{
+        text-align: center;
+    }
+
+    .s{
+        margin-bottom: 0;
+    }
+
+    #coxinha{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (max-width: 530px) {
+    ul{
+        display: block;
+    }
+    #ki{
+        border-radius: 15px;
+        font-size: 300%;
+        width: 205px;
+    }
+
+    #bu{
+        font-size: 150%;
+        width: 100px;
+    }
+
+    #ti{
+        font-size: 250%;
+        width: 190px;
+
+    }
+
+    #salgados{
+        width: 100%;
+    }
+
+    #mesa{
+        width: 100%;
+    }
+
+    #coxinha{
+        width: 100%;
+        height: 250px;
+    }
+
+    #button-page{
+        font-size: 4vh;
+    }
+
+    #button-page1{
+        font-size: 4vh;
+    }
+
+    #button-page2{
+        font-size: 4vh;
+    }
+
+    #end{
+        font-size: 1.5vh;
+    }
+}
+
+@media (max-width: 375px) {
+    #fundo ul li{
+        display: grid;
+        margin: 0;
+    }
+
+}
