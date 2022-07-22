@@ -1,5 +1,7 @@
 //css
 import '../css/social.css'
+//img
+import Table from '../image/table.jpg'
 //hook
 import React, { useEffect} from 'react'
 import AOS from 'aos';

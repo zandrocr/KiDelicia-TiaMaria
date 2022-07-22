@@ -26,7 +26,7 @@ const Menu = () => {
                 <li>Bolinha de batata recheada</li>
                 <li>Croquete de carne</li>
             </ul>
-            <img src={Coxinha} alt="coxinha" className='col-10 col-sm-5' data-aos='fade-in' data-aos-duration="2000"/>
+            <img src={Coxinha} alt="coxinha" className='col-10 col-sm-5' data-aos='fade-in' data-aos-duration="2000" data-aos-offset="200"/>
             <ul className='d-flex flex-column align-items-center text-center'>
                 <li>Massas</li>
                 <li>Pastel de frango em massa folhada</li>
