@@ -9,7 +9,7 @@ import '../css/home.css'
 const Home = () => {
     return ( <div className='home col-12'>
         <div className='logo d-flex justify-content-center col-12'>
-            <img src={Logo} alt="logo" className='col-3 col-sm-2 col-xl-1'/>
+            <img src={Logo} alt="logo" className='col-12'/>
         </div>
         <div className='capa d-flex flex-column align-items-center justify-content-center'>
             <div className='col-10'>

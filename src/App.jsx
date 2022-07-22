@@ -30,7 +30,7 @@ function App() {
             {home && <div className=''>
                 <Home />
                 <About />
-                <div className='tables col-12'></div>
+                {/*<div className='tables col-12'></div>*/}
                 <Menu />
                 <Social />
             </div>}
